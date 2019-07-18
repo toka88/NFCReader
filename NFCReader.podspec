@@ -22,12 +22,12 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/toka88/NFCReader'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'toka88' => 'tokan988@gmail.com' }
+  s.author           = { 'Goran Tokovic' => 'tokan988@gmail.com' }
   s.source           = { :git => 'https://github.com/toka88/NFCReader.git', :tag => s.version.to_s }
+  s.swift_version = '5.0'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.2'
 
   s.source_files = 'NFCReader/Classes/**/*'
   
@@ -36,6 +36,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.ios.framework = 'CoreNFC'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

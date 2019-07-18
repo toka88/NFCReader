@@ -1,7 +1,7 @@
 {
   "name": "NFCReader",
   "version": "0.1.0",
-  "summary": "A short description of NFCReader.",
+  "summary": "Simple NFC reader library.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/toka88/NFCReader",
   "license": {
@@ -9,14 +9,19 @@
     "file": "LICENSE"
   },
   "authors": {
-    "toka88": "tokan988@gmail.com"
+    "Goran Tokovic": "tokan988@gmail.com"
   },
   "source": {
     "git": "https://github.com/toka88/NFCReader.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "NFCReader/Classes/**/*"
+  "source_files": "NFCReader/Classes/**/*",
+  "ios": {
+    "frameworks": "CoreNFC"
+  },
+  "swift_version": "5.0"
 }
