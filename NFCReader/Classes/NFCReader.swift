@@ -22,33 +22,33 @@ private enum NFCReaderError: Error {
 }
 
 @available(iOS 11.0, *)
-final class NFCReader: NSObject {
+public class NFCReader: NSObject {
     private var session: NFCNDEFReaderSession?
     private var completionBlock: ((Result<String, Error>) -> Void)?
 
     /// Singleton instance
-    static let shared: NFCReader = NFCReader()
+    public static let shared: NFCReader = NFCReader()
 
     /// Check is NFC reading available
-    var readingAvailable: Bool {
+    public var readingAvailable: Bool {
         return NFCNDEFReaderSession.readingAvailable
     }
 
     /// Is reading active
-    var isScanning: Bool {
+    public var isReading: Bool {
         return completionBlock != nil
     }
 
     /// Stop NFC reader
-    func stopScanning() {
+    public func stopScanning() {
         session?.invalidate()
         session = nil
         completionBlock?(.failure(NFCReaderError.sessionStopped))
         completionBlock = nil
     }
 
-    func scanTag(completion:@escaping ((Result<String, Error>) -> Void)) {
-        guard !isScanning else {
+    public func scanTag(completion:@escaping ((Result<String, Error>) -> Void)) {
+        guard !isReading else {
             completion(.failure(NFCReaderError.sessionAlreadyStarted))
             return
         }
@@ -62,7 +62,7 @@ final class NFCReader: NSObject {
 
 @available(iOS 11.0, *)
 extension NFCReader: NFCNDEFReaderSessionDelegate {
-    func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
+    public func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
         session.invalidate()
         DispatchQueue.main.async { [weak self] in
             self?.session = nil
@@ -71,7 +71,7 @@ extension NFCReader: NFCNDEFReaderSessionDelegate {
         }
     }
 
-    func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
+    public func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
         var result = ""
         for payload in messages[0].records {
             if let text = String.init(data: payload.payload, encoding: .utf8) {

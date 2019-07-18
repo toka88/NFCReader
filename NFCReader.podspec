@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/toka88/NFCReader.git', :tag => s.version.to_s }
   s.swift_version = '5.0'
 
-  s.ios.deployment_target = '12.2'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'NFCReader/Classes/**/*'
   
