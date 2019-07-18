@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		186C0B84BD6DF2536329789A /* Pods_NFCReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFCReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C13E20C959AA834E7FACEDB /* Pods-NFCReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFCReader_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NFCReader_Tests/Pods-NFCReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E86B4DD0F48DDC3FB618EF8 /* NFCReader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NFCReader.podspec; path = ../NFCReader.podspec; sourceTree = "<group>"; };
+		3E86B4DD0F48DDC3FB618EF8 /* NFCReader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NFCReader.podspec; path = ../NFCReader.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F913F3814A4D0F119EA75DB /* Pods-NFCReader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFCReader_Example.debug.xcconfig"; path = "Target Support Files/Pods-NFCReader_Example/Pods-NFCReader_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		549F87F3B0415171EC4E53E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		549F87F3B0415171EC4E53E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NFCReader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCReader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A8CA5D24672157312B1FD60 /* Pods_NFCReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFCReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B796CA5ACFCBCA59C4449D /* Pods-NFCReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFCReader_Example.release.xcconfig"; path = "Target Support Files/Pods-NFCReader_Example/Pods-NFCReader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B10F43C2624819DBD95DDA74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B10F43C2624819DBD95DDA74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E20054BF0E5A1BD9B36906EB /* Pods-NFCReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFCReader_Tests.release.xcconfig"; path = "Target Support Files/Pods-NFCReader_Tests/Pods-NFCReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				1C13E20C959AA834E7FACEDB /* Pods-NFCReader_Tests.debug.xcconfig */,
 				E20054BF0E5A1BD9B36906EB /* Pods-NFCReader_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

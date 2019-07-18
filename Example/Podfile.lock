@@ -1,0 +1,16 @@
+PODS:
+  - NFCReader (0.1.0)
+
+DEPENDENCIES:
+  - NFCReader (from `../`)
+
+EXTERNAL SOURCES:
+  NFCReader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NFCReader: ba3a04ddaaa69f4ad80c651f182d9db3b1c449ce
+
+PODFILE CHECKSUM: 89e50b4ee4c16347e81d6df39059602eea8686a2
+
+COCOAPODS: 1.7.4

@@ -1,0 +1,22 @@
+{
+  "name": "NFCReader",
+  "version": "0.1.0",
+  "summary": "A short description of NFCReader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/toka88/NFCReader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "toka88": "tokan988@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/toka88/NFCReader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NFCReader/Classes/**/*"
+}

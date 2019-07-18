@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13716B23896267CBA37BE8D6EEDB2CC5 /* Pods-NFCReader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5252E6D93F3710F16FACA3856E295A /* Pods-NFCReader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B546DBE6C2C054A328263DACACF2675 /* Pods-NFCReader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE5797F73995B6069CA2622873B98A0 /* Pods-NFCReader_Example-dummy.m */; };
+		282C2D63060228F3BFB07CA5DC607816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2BFA59C722E0609300D379B9 /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA59C622E0609300D379B9 /* NFCReader.swift */; };
+		31D455417E3FA147268686DA5BB05A01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		36C1202F645D4DD7EF4FA554476558F4 /* NFCReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EAF5807856B1F7557A7105CFE1B301 /* NFCReader-dummy.m */; };
+		7D05A5ECCDEDBCD1CD87A960F2760C67 /* Pods-NFCReader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 935AF4BEF33D9274B03F6C274211ADC9 /* Pods-NFCReader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6A44B098DFA8170FD00AF9C2694ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BA0B84F65D16B23F47371E9A59C5E105 /* NFCReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 579F447E5BC8C47F1861BBFF2D65088F /* NFCReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE75EEB1CD16168A293DD3EE07D503CC /* Pods-NFCReader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EF1F5D65A379237BC8027E1364924 /* Pods-NFCReader_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8607F0784228FE99804F5DD7C1603023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29394BCA0F7CCA35E9AD53C25F210BDA;
+			remoteInfo = NFCReader;
+		};
+		998E5AD4B8B5C8F39BBB93A3DDE67D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805A523CD514D67FA895E4F2FD71DC6D;
+			remoteInfo = "Pods-NFCReader_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06112B46B28DC335ED681B571F24F535 /* Pods-NFCReader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFCReader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A7F59B4E4FD547441DB3E651057B230 /* NFCReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCReader.xcconfig; sourceTree = "<group>"; };
+		1C0848AAFD74A1E6DE2215A6F479F988 /* Pods_NFCReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFCReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFA59C622E0609300D379B9 /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NFCReader.swift; path = NFCReader/Classes/NFCReader.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		333D85033F664B52C7A925CF9BDBA732 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		37EDAB473809F27AFFABF836E8F7489E /* NFCReader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NFCReader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40FB5D900B0ED68F4635CA80DEB92BB4 /* Pods-NFCReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFCReader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4606173CAC06F0AE3C47293788612697 /* Pods-NFCReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFCReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		579F447E5BC8C47F1861BBFF2D65088F /* NFCReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCReader-umbrella.h"; sourceTree = "<group>"; };
+		5A5252E6D93F3710F16FACA3856E295A /* Pods-NFCReader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFCReader_Example-umbrella.h"; sourceTree = "<group>"; };
+		767EF1F5D65A379237BC8027E1364924 /* Pods-NFCReader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFCReader_Tests-dummy.m"; sourceTree = "<group>"; };
+		8E11E08EB57278C49004CF954DDDA391 /* Pods-NFCReader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFCReader_Example-Info.plist"; sourceTree = "<group>"; };
+		935AF4BEF33D9274B03F6C274211ADC9 /* Pods-NFCReader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFCReader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		97E9F1EA03EBC8EF685E84D1AAAAA554 /* Pods-NFCReader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFCReader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		999E09D157AED4DB6B61B1A154AB598E /* Pods-NFCReader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NFCReader_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E021041E340405E4B066967F1EBF4A /* Pods-NFCReader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NFCReader_Example.modulemap"; sourceTree = "<group>"; };
+		A5EAF5807856B1F7557A7105CFE1B301 /* NFCReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFCReader-dummy.m"; sourceTree = "<group>"; };
+		AAB5768E76A5832A85D01E0A528AF10F /* NFCReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFCReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFBC0DB9E004F276D65317E694F5801 /* Pods-NFCReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFCReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C218FABFC9D8D3698F9C2E99B82D7010 /* Pods_NFCReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFCReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA30F421FCFD1C8BF3E3C1B6C3F688C /* NFCReader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFCReader-Info.plist"; sourceTree = "<group>"; };
+		CEA4B834E86F625B5D9887E18DDA8C76 /* NFCReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFCReader.modulemap; sourceTree = "<group>"; };
+		DD9A244A13E3E0D8F1C579ABAD3E8888 /* NFCReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCReader-prefix.pch"; sourceTree = "<group>"; };
+		DDDFADA7DE997AF7920F8BBF769E7D28 /* Pods-NFCReader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NFCReader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE8FFA20F262748CDAAF90D76A0E1247 /* Pods-NFCReader_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFCReader_Tests-Info.plist"; sourceTree = "<group>"; };
+		DF1CB296CE3FF906D68245905AEB4B73 /* Pods-NFCReader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NFCReader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFDF7FE07249D65C1965CA28F89767C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E76B17568938A0D02C251E6A1E2B238B /* Pods-NFCReader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFCReader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE5797F73995B6069CA2622873B98A0 /* Pods-NFCReader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFCReader_Example-dummy.m"; sourceTree = "<group>"; };
+		F6B1772D6460B83BC9563CAD3B470237 /* Pods-NFCReader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NFCReader_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACB2F86C9C6A8A83CB6D8753A394C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282C2D63060228F3BFB07CA5DC607816 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B65B2C36A17FA1E79F1A705BA4E65EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6A44B098DFA8170FD00AF9C2694ABC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0328AC5A1164EE73F3EBB5A99574F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D455417E3FA147268686DA5BB05A01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0535389445EC0B8923951FCA3F41D129 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF3558306D6DCBA689FE18265B5846 /* NFCReader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		28106EC947C8B35BEBA5580B878E7559 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF7FE07249D65C1965CA28F89767C2 /* LICENSE */,
+				37EDAB473809F27AFFABF836E8F7489E /* NFCReader.podspec */,
+				333D85033F664B52C7A925CF9BDBA732 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4B1CBEBCE1BFDD371A5E34928CAA624E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4102ABF94083B134F1795B0B539483B /* Pods-NFCReader_Example */,
+				B75FFE6A7640FD13E661EECC4B0C5D46 /* Pods-NFCReader_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		81F7D2B1C21A7D37BE2EC94080BF604F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5768E76A5832A85D01E0A528AF10F /* NFCReader.framework */,
+				C218FABFC9D8D3698F9C2E99B82D7010 /* Pods_NFCReader_Example.framework */,
+				1C0848AAFD74A1E6DE2215A6F479F988 /* Pods_NFCReader_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EAF3558306D6DCBA689FE18265B5846 /* NFCReader */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA59C622E0609300D379B9 /* NFCReader.swift */,
+				28106EC947C8B35BEBA5580B878E7559 /* Pod */,
+				B144A422EBC9E29ECBC3D1291C198A48 /* Support Files */,
+			);
+			name = NFCReader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A4102ABF94083B134F1795B0B539483B /* Pods-NFCReader_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A5E021041E340405E4B066967F1EBF4A /* Pods-NFCReader_Example.modulemap */,
+				DDDFADA7DE997AF7920F8BBF769E7D28 /* Pods-NFCReader_Example-acknowledgements.markdown */,
+				06112B46B28DC335ED681B571F24F535 /* Pods-NFCReader_Example-acknowledgements.plist */,
+				EBE5797F73995B6069CA2622873B98A0 /* Pods-NFCReader_Example-dummy.m */,
+				F6B1772D6460B83BC9563CAD3B470237 /* Pods-NFCReader_Example-frameworks.sh */,
+				8E11E08EB57278C49004CF954DDDA391 /* Pods-NFCReader_Example-Info.plist */,
+				5A5252E6D93F3710F16FACA3856E295A /* Pods-NFCReader_Example-umbrella.h */,
+				E76B17568938A0D02C251E6A1E2B238B /* Pods-NFCReader_Example.debug.xcconfig */,
+				40FB5D900B0ED68F4635CA80DEB92BB4 /* Pods-NFCReader_Example.release.xcconfig */,
+			);
+			name = "Pods-NFCReader_Example";
+			path = "Target Support Files/Pods-NFCReader_Example";
+			sourceTree = "<group>";
+		};
+		B144A422EBC9E29ECBC3D1291C198A48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B834E86F625B5D9887E18DDA8C76 /* NFCReader.modulemap */,
+				0A7F59B4E4FD547441DB3E651057B230 /* NFCReader.xcconfig */,
+				A5EAF5807856B1F7557A7105CFE1B301 /* NFCReader-dummy.m */,
+				CBA30F421FCFD1C8BF3E3C1B6C3F688C /* NFCReader-Info.plist */,
+				DD9A244A13E3E0D8F1C579ABAD3E8888 /* NFCReader-prefix.pch */,
+				579F447E5BC8C47F1861BBFF2D65088F /* NFCReader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NFCReader";
+			sourceTree = "<group>";
+		};
+		B75FFE6A7640FD13E661EECC4B0C5D46 /* Pods-NFCReader_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				999E09D157AED4DB6B61B1A154AB598E /* Pods-NFCReader_Tests.modulemap */,
+				DF1CB296CE3FF906D68245905AEB4B73 /* Pods-NFCReader_Tests-acknowledgements.markdown */,
+				97E9F1EA03EBC8EF685E84D1AAAAA554 /* Pods-NFCReader_Tests-acknowledgements.plist */,
+				767EF1F5D65A379237BC8027E1364924 /* Pods-NFCReader_Tests-dummy.m */,
+				DE8FFA20F262748CDAAF90D76A0E1247 /* Pods-NFCReader_Tests-Info.plist */,
+				935AF4BEF33D9274B03F6C274211ADC9 /* Pods-NFCReader_Tests-umbrella.h */,
+				ABFBC0DB9E004F276D65317E694F5801 /* Pods-NFCReader_Tests.debug.xcconfig */,
+				4606173CAC06F0AE3C47293788612697 /* Pods-NFCReader_Tests.release.xcconfig */,
+			);
+			name = "Pods-NFCReader_Tests";
+			path = "Target Support Files/Pods-NFCReader_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0535389445EC0B8923951FCA3F41D129 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				81F7D2B1C21A7D37BE2EC94080BF604F /* Products */,
+				4B1CBEBCE1BFDD371A5E34928CAA624E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70C4BB549A23C9D32C59F8F96802970F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D05A5ECCDEDBCD1CD87A960F2760C67 /* Pods-NFCReader_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E1CDA7B35F9554A339F422392A1ACF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0B84F65D16B23F47371E9A59C5E105 /* NFCReader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6705ECE88ABED99AF6BA563D786641C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13716B23896267CBA37BE8D6EEDB2CC5 /* Pods-NFCReader_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29394BCA0F7CCA35E9AD53C25F210BDA /* NFCReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B9C48E0FE659BE5C4AA9F6F9E420F6 /* Build configuration list for PBXNativeTarget "NFCReader" */;
+			buildPhases = (
+				C3E1CDA7B35F9554A339F422392A1ACF /* Headers */,
+				5D8543A3CC9140D061954C88CD56654E /* Sources */,
+				9D0328AC5A1164EE73F3EBB5A99574F3 /* Frameworks */,
+				F77A6A08A7E21BD9E6866312C957B6D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFCReader;
+			productName = NFCReader;
+			productReference = AAB5768E76A5832A85D01E0A528AF10F /* NFCReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4602A6E530BD473085D26381D6DE00F6 /* Pods-NFCReader_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB3EE1470FBF22B5A4634DAD0EAAA37 /* Build configuration list for PBXNativeTarget "Pods-NFCReader_Tests" */;
+			buildPhases = (
+				70C4BB549A23C9D32C59F8F96802970F /* Headers */,
+				B16D56CBF925114E639E7FB68CC49553 /* Sources */,
+				9B65B2C36A17FA1E79F1A705BA4E65EF /* Frameworks */,
+				6864CCFA731022D11004A43E0BEA3EBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A81E59AD4153C6E68B8BDC90B04DDDE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-NFCReader_Tests";
+			productName = "Pods-NFCReader_Tests";
+			productReference = 1C0848AAFD74A1E6DE2215A6F479F988 /* Pods_NFCReader_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		805A523CD514D67FA895E4F2FD71DC6D /* Pods-NFCReader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D03B6E5106D32303C5D4B649253DFCD /* Build configuration list for PBXNativeTarget "Pods-NFCReader_Example" */;
+			buildPhases = (
+				D6705ECE88ABED99AF6BA563D786641C /* Headers */,
+				F5C87D4F7F050A43220CD87CC660D4E5 /* Sources */,
+				5ACB2F86C9C6A8A83CB6D8753A394C9D /* Frameworks */,
+				7739A9269FA9F29FB7C401F8A7996F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DF979A345C5D123A3038D2308448F32 /* PBXTargetDependency */,
+			);
+			name = "Pods-NFCReader_Example";
+			productName = "Pods-NFCReader_Example";
+			productReference = C218FABFC9D8D3698F9C2E99B82D7010 /* Pods_NFCReader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					29394BCA0F7CCA35E9AD53C25F210BDA = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 81F7D2B1C21A7D37BE2EC94080BF604F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29394BCA0F7CCA35E9AD53C25F210BDA /* NFCReader */,
+				805A523CD514D67FA895E4F2FD71DC6D /* Pods-NFCReader_Example */,
+				4602A6E530BD473085D26381D6DE00F6 /* Pods-NFCReader_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6864CCFA731022D11004A43E0BEA3EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7739A9269FA9F29FB7C401F8A7996F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A6A08A7E21BD9E6866312C957B6D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D8543A3CC9140D061954C88CD56654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFA59C722E0609300D379B9 /* NFCReader.swift in Sources */,
+				36C1202F645D4DD7EF4FA554476558F4 /* NFCReader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16D56CBF925114E639E7FB68CC49553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE75EEB1CD16168A293DD3EE07D503CC /* Pods-NFCReader_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C87D4F7F050A43220CD87CC660D4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B546DBE6C2C054A328263DACACF2675 /* Pods-NFCReader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DF979A345C5D123A3038D2308448F32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFCReader;
+			target = 29394BCA0F7CCA35E9AD53C25F210BDA /* NFCReader */;
+			targetProxy = 8607F0784228FE99804F5DD7C1603023 /* PBXContainerItemProxy */;
+		};
+		A81E59AD4153C6E68B8BDC90B04DDDE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NFCReader_Example";
+			target = 805A523CD514D67FA895E4F2FD71DC6D /* Pods-NFCReader_Example */;
+			targetProxy = 998E5AD4B8B5C8F39BBB93A3DDE67D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ABAA3F1E47389A1E66CDE7D1A01B045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7F59B4E4FD547441DB3E651057B230 /* NFCReader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCReader/NFCReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCReader/NFCReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFCReader/NFCReader.modulemap";
+				PRODUCT_MODULE_NAME = NFCReader;
+				PRODUCT_NAME = NFCReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		968D08831533B4F969EAB0F01BBA3D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABFBC0DB9E004F276D65317E694F5801 /* Pods-NFCReader_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NFCReader_Tests/Pods-NFCReader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFCReader_Tests/Pods-NFCReader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B30F759572E7394812D8092F06AFACC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76B17568938A0D02C251E6A1E2B238B /* Pods-NFCReader_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NFCReader_Example/Pods-NFCReader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFCReader_Example/Pods-NFCReader_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA2F7B304B556E13AF8673F69CD2D783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7F59B4E4FD547441DB3E651057B230 /* NFCReader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCReader/NFCReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCReader/NFCReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFCReader/NFCReader.modulemap";
+				PRODUCT_MODULE_NAME = NFCReader;
+				PRODUCT_NAME = NFCReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFCE9495E378D76459250A3B9AF70774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4606173CAC06F0AE3C47293788612697 /* Pods-NFCReader_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NFCReader_Tests/Pods-NFCReader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFCReader_Tests/Pods-NFCReader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F39853930762BD12A3E8B4BC0F0FA9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FB5D900B0ED68F4635CA80DEB92BB4 /* Pods-NFCReader_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NFCReader_Example/Pods-NFCReader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFCReader_Example/Pods-NFCReader_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D03B6E5106D32303C5D4B649253DFCD /* Build configuration list for PBXNativeTarget "Pods-NFCReader_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30F759572E7394812D8092F06AFACC1 /* Debug */,
+				F39853930762BD12A3E8B4BC0F0FA9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB3EE1470FBF22B5A4634DAD0EAAA37 /* Build configuration list for PBXNativeTarget "Pods-NFCReader_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968D08831533B4F969EAB0F01BBA3D25 /* Debug */,
+				CFCE9495E378D76459250A3B9AF70774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B9C48E0FE659BE5C4AA9F6F9E420F6 /* Build configuration list for PBXNativeTarget "NFCReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABAA3F1E47389A1E66CDE7D1A01B045 /* Debug */,
+				CA2F7B304B556E13AF8673F69CD2D783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
