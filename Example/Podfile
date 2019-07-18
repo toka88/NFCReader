@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NFCReader_Example' do
+  pod 'NFCReader', :path => '../'
+
+  target 'NFCReader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
