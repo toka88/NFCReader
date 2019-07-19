@@ -17,7 +17,7 @@ NFCReader is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'NFCReader', :git => 'https://github.com/toka88/NFCReader.git'
+pod 'NFCReader'
 ```
 
 ## Author
