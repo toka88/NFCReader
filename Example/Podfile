@@ -6,6 +6,5 @@ target 'NFCReader_Example' do
   target 'NFCReader_Tests' do
     inherit! :search_paths
 
-    
   end
 end

@@ -39,27 +39,27 @@
 
 /* Begin PBXFileReference section */
 		06112B46B28DC335ED681B571F24F535 /* Pods-NFCReader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFCReader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1C0848AAFD74A1E6DE2215A6F479F988 /* Pods_NFCReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NFCReader_Tests.framework; path = "Pods-NFCReader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0848AAFD74A1E6DE2215A6F479F988 /* Pods_NFCReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFCReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFAC364FA65CFF0B81484927255D01F /* NFCReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCReader-prefix.pch"; sourceTree = "<group>"; };
-		3F4F06588CDF61C81AEDCF000FE8B25F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		401593AC60E95BB3E6EAFB35B50E8A19 /* NFCReader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NFCReader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3F4F06588CDF61C81AEDCF000FE8B25F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		401593AC60E95BB3E6EAFB35B50E8A19 /* NFCReader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NFCReader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40FB5D900B0ED68F4635CA80DEB92BB4 /* Pods-NFCReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFCReader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		435BBA0202B995BEDD9A75A0F4B8004F /* NFCReader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFCReader-Info.plist"; sourceTree = "<group>"; };
 		4606173CAC06F0AE3C47293788612697 /* Pods-NFCReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFCReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4EB3FBA1CD716CD3AC95BD6876558F45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A5252E6D93F3710F16FACA3856E295A /* Pods-NFCReader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFCReader_Example-umbrella.h"; sourceTree = "<group>"; };
 		767EF1F5D65A379237BC8027E1364924 /* Pods-NFCReader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFCReader_Tests-dummy.m"; sourceTree = "<group>"; };
-		7B6A1632A4B08ACE9E4F3C14FB1B974B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7B6A1632A4B08ACE9E4F3C14FB1B974B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7D79564900B3368FB9C0286C6B90984B /* NFCReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFCReader.swift; path = NFCReader/Classes/NFCReader.swift; sourceTree = "<group>"; };
 		8E11E08EB57278C49004CF954DDDA391 /* Pods-NFCReader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFCReader_Example-Info.plist"; sourceTree = "<group>"; };
 		935AF4BEF33D9274B03F6C274211ADC9 /* Pods-NFCReader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFCReader_Tests-umbrella.h"; sourceTree = "<group>"; };
 		97E9F1EA03EBC8EF685E84D1AAAAA554 /* Pods-NFCReader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFCReader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		999E09D157AED4DB6B61B1A154AB598E /* Pods-NFCReader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NFCReader_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5E021041E340405E4B066967F1EBF4A /* Pods-NFCReader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NFCReader_Example.modulemap"; sourceTree = "<group>"; };
-		AAB5768E76A5832A85D01E0A528AF10F /* NFCReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NFCReader.framework; path = NFCReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB5768E76A5832A85D01E0A528AF10F /* NFCReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFCReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFBC0DB9E004F276D65317E694F5801 /* Pods-NFCReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFCReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C218FABFC9D8D3698F9C2E99B82D7010 /* Pods_NFCReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NFCReader_Example.framework; path = "Pods-NFCReader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C218FABFC9D8D3698F9C2E99B82D7010 /* Pods_NFCReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFCReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC530CD9C43C6248197AB9F44CFA027 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreNFC.framework; sourceTree = DEVELOPER_DIR; };
 		D1355E17B0070867E3DB7ACD5D5C0F20 /* NFCReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCReader.xcconfig; sourceTree = "<group>"; };
 		D232C7261E3BB57E712F53E9A6C37B70 /* NFCReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFCReader.modulemap; sourceTree = "<group>"; };
@@ -318,7 +318,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -326,6 +326,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 81F7D2B1C21A7D37BE2EC94080BF604F /* Products */;
@@ -460,8 +461,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -472,7 +472,6 @@
 			baseConfigurationReference = 4606173CAC06F0AE3C47293788612697 /* Pods-NFCReader_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -508,7 +507,6 @@
 			baseConfigurationReference = 40FB5D900B0ED68F4635CA80DEB92BB4 /* Pods-NFCReader_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -544,7 +542,6 @@
 			baseConfigurationReference = E76B17568938A0D02C251E6A1E2B238B /* Pods-NFCReader_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -579,7 +576,6 @@
 			baseConfigurationReference = ABFBC0DB9E004F276D65317E694F5801 /* Pods-NFCReader_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -613,7 +609,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1355E17B0070867E3DB7ACD5D5C0F20 /* NFCReader.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -647,7 +642,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1355E17B0070867E3DB7ACD5D5C0F20 /* NFCReader.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
